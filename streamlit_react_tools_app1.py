@@ -5,7 +5,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI  # For interacting wit
 from langgraph.prebuilt import create_react_agent  # For creating a ReAct agent
 from langchain_core.messages import HumanMessage, AIMessage  # For message formatting
 from langchain_core.tools import tool  # For creating tools
-from dotenv import load_dotenv
 
 
 # Import our database tools
@@ -240,4 +239,5 @@ if prompt:
         st.markdown(answer)
     
     # 5. Add the assistant's response to the message history list.
+
     st.session_state.messages.append({"role": "assistant", "content": answer})
