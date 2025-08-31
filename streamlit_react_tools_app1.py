@@ -119,7 +119,7 @@ st.caption("Chatbot bisa tau bocil roblok ges!🙀🙀🙀")
 
 
 # Langsung definisikan API Key (HARD-CODE)
-google_api_key = "AIzaSyB3SsFgikJG27FZ469qBYcpgzC1vyZXTkk"
+google_api_key = "AIzaSyAUFlrOUh3NRsjmtIGXtB3m35u6oq8ro58"
 
 # Sidebar untuk Settings
 with st.sidebar:
@@ -339,3 +339,4 @@ if prompt:
     
     # 5. Add the assistant's response to the message history list.
     st.session_state.messages.append({"role": "assistant", "content": answer})
+
